@@ -187,8 +187,51 @@ section {
   justify-content: space-between;
 }
 
-.aside-info {
+.payments {
   background-color: #ecedef;
   width: 30vw;
   height: 100vh;
+  padding: 30px 60px;
+}
+.payments .payments-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.payments .payments-header button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: inset 3px 3px 3px -1px rgba(34, 58, 120, 0.05), inset -6px -6px 3px -4px rgba(232, 235, 243, 0.77), 0 20px 13px 0 rgba(41, 72, 152, 0.03), 0 39px 25px 0 rgba(41, 72, 152, 0.03), 0 65px 47px 0 rgba(41, 72, 152, 0.04), 0 100px 80px 0 rgba(41, 72, 152, 0.05), 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.03);
+}
+.payments .clear {
+  padding: 13px 34px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  color: black;
+  font-family: "Google Sans";
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.payments .payments-card {
+  width: 100%;
+  height: 135px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.payments .payments-card .payments-card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.payments .wallet-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
