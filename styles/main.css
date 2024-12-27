@@ -40,6 +40,7 @@
 }
 h2 {
   font-size: 32px;
+  font-weight: 500;
   color: black;
 }
 
@@ -134,6 +135,56 @@ section {
 .main {
   width: 50vw;
   height: 100vh;
+  padding: 30px 60px;
+}
+.main .search-container {
+  position: relative;
+  margin-bottom: 100px;
+}
+.main .search-container input {
+  padding: 13px;
+  border-radius: 20px;
+  width: 100%;
+  padding-left: 55px;
+  background-color: #f7f8fa;
+  border: none;
+}
+.main .search-container .search-icon {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+.main .main-cards {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.main .main-cards .main-card {
+  width: 30%;
+  height: 250px;
+  padding: 24px 15px;
+  background-color: #fdedd5;
+  border-radius: 20px;
+}
+.main .main-cards .main-card .main-card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.main .main-info-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.main .mit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .aside-info {
