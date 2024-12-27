@@ -1,0 +1,94 @@
+@import "./other/fonts";
+@import "./other/typography";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Berlin Sans";
+  font-weight: 400;
+}
+
+section {
+  display: flex;
+}
+
+.aside-header {
+  background-color: #ecedef;
+  width: 20vw;
+  height: 100vh;
+  padding: 25px 45px;
+  .logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    .header-menu-item {
+      width: 42%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.2s ease;
+      &:hover {
+        transition: all 0.2s ease;
+        .header-menu-icon {
+          background-color: #51459e;
+        }
+        .aside-p {
+          color: #51459e;
+        }
+      }
+      .header-menu-icon {
+        width: 50px;
+        height: 50px;
+        background-color: #eceff7;
+        border-radius: 12px;
+        padding: 12.5px;
+      }
+    }
+  }
+  .aside-title {
+    border-radius: 20px;
+    background-color: #cfc8ff;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+    button {
+      width: 100%;
+      padding: 16px;
+      border-radius: 20px;
+      border: none;
+      background-color: white;
+      color: #51459e;
+      font-family: "Google Sans";
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+.main {
+  width: 50vw;
+  height: 100vh;
+}
+
+.aside-info {
+  background-color: #ecedef;
+  width: 30vw;
+  height: 100vh;
+}
